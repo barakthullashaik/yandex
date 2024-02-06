@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+header ul li{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+header ul img{
+    height: 30px;
+}
+main .one ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main .one ul img{
+    list-style: none;
+    height: 4rem;
+    margin: 0.5rem;
+    margin-top: 5rem;
+    margin-left: -0.5rem;
+    margin-right: 2.5rem;
+}
+main .two ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 1.5rem;
+}
+main .two ul input{
+    height: 1.5rem;
+    width: 40%;
+    /* border: none; */
+    outline: none;
+    font-weight: lighter;
+    border-radius: 12px;
+}
+main .two ul img{
+    height: 24px;
+    width: 2rem;
+    display: flex;
+    justify-content:end;
+}
+.hello ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hello ul img{
+    height: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+div ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+div ul li{
+    margin-left: 1.5rem;
+    font-weight:lighter;
+}
